@@ -1,5 +1,5 @@
 .search-box {
-  -webkit-appearance: none;
+  appearance: none;
   border: none;
   border-radius: 5px;
   outline: none;
