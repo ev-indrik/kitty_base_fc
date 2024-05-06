@@ -1,10 +1,10 @@
 import "./card_item_component_style.css";
 
-const CardItem = ({ monster }) => {
-  const { id, name, email } = monster;
+const CardItem = ({ monsterIt }) => {
+  const { id, name, email } = monsterIt;
 
   return (
-    <div className="card-container" key={id}>
+    <div className="card-container">
       <img
         src={`https://robohash.org/${id}?set=set4&size=180x180`}
         alt={`it's a ${name}`}
